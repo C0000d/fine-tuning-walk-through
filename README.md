@@ -19,8 +19,14 @@
 ## ️  Quick start
 
 ```bash
-# baseline & tokenised cache (~2 min)
-python fine-tuning.py                # runs sections 1 and 2 − baseline + full‑FT stub
+# baseline & tokenised cache
+python data_preparation.py
+
+# run fine-tuning pipeline
+python fine-tuning.py      # runs sections 1 and 2 − baseline + full‑FT stub
+
+# evaluation
+python evaluation.py
 ```
 
 ---
